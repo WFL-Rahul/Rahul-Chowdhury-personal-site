@@ -4,7 +4,7 @@
 <head>
     <title>Rahul Chowdhury</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="custom.js"></script>
+ 
     <script src="typed.min.js"></script>
 
 </head>
@@ -20,12 +20,13 @@
                 <a href="#Education">Education</a>
                 <a href="#contact">Contact</a>
             </div>
+            <div class="hamburger" id="hamburger">&#9660;</div>
         </nav>
         <div class="text">
-            <p>Hello,I am</p>
+            <p>Hello, I am</p>
             <h1>Rahul Chowdhury</h1>
             <p>& I am <span id="edit" style="color: rgb(32, 31, 31);"></span></p>
-            <button class="c-btn">Hire me</button>
+            <button class="c-btn" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });">Hire me</button>
         </div>
 
     </header>
@@ -41,11 +42,9 @@
             <div class="about-right-column">
                 <p id="p-title">I am <span id="edit2" style="color: #e74c3c;"></span></p>
                 <p>
-                    I am from a city named Asansol,near Kolkata(West-Bengal). I am a fresher & 21st year old.I have completed my bachelor's from Asansol Engineering College in 2020. Recently I started learing Web-Development from Udemy & made this beautiful project by my
-                    experience.
-                </p>
+                I am 25-year-old Web Developer with 2+ years at Infosys, delivering scalable solutions for platforms like Finacle e-Banking. Proficient in React.js, JavaScript (ES6), HTML, CSS, REST APIs, with working knowledge of Node.js, MySQL, Git, and Redux. Passionate about clean, user-focused design and performance. Outside of tech, I enjoy sports, traveling, and meeting new people.             </p>
 
-                <button class="c-btn"><a href="Rahul%20Resume.pdf" style="color:white">Download CV</a></button>
+                <button class="c-btn"><a href="Rahul%20Resume.pdf" target="_blank" style="color:white">Download CV</a></button>
             </div>
 
 
@@ -59,8 +58,7 @@
         <div class="skillsrow">
             <div class="skillsleftcol">
                 <p>
-                    In all of three programming language I know, JavaScript is my favorite language , I have done web development course from Udemy ,I learnt HTML ,CSS from this & made this portfolio as a project. I have gained a brief idea of all this language.
-                </p>
+                  I began my tech journey with a strong interest in front-end development, driven by a passion for UI/UX design and tools like Figma. Over time, project requirements led me to expand into backend development, where I’ve been working with Node.js and Express.js. To deepen my understanding, I’ve built self-initiated backend projects and shared them on GitHub. This full-stack exposure has enhanced my versatility as a Web Developer and strengthened my ability to build complete, scalable web applications.          </p>
                 <button class="c-btn">Read More</button>
             </div>
             <div class="skillsrightcol">
@@ -72,8 +70,8 @@
                     </p>
                     <p>
                         <span>CSS</span><br>
-                        <progress value="80" max="100"></progress>
-                        <span>80%</span>
+                        <progress value="60" max="100"></progress>
+                        <span>60%</span>
                     </p>
                     <p>
                         <span>JavaScript</span><br>
@@ -81,14 +79,14 @@
                         <span>90%</span>
                     </p>
                     <p>
-                        <span>Python</span><br>
-                        <progress value="50" max="100"></progress>
-                        <span>50%</span>
+                        <span>React.JS</span><br>
+                        <progress value="70" max="100"></progress>
+                        <span>70%</span>
                     </p>
                     <p>
-                        <span>C</span><br>
-                        <progress value="40" max="100"></progress>
-                        <span>40%</span>
+                        <span>Node.js</span><br>
+                        <progress value="70" max="100"></progress>
+                        <span>70%</span>
                     </p>
                 </div>
             </div>
@@ -149,12 +147,12 @@
                     <p>Asansol,West-Bengal</p>
                 </div>
                 <div class="myemail"><img src="emaill.png"></img>
-                    <h3>E-mail :</h3>
+                    <h3>E-mail : </h3>
                     <p>rahulchowdhury217@gmail.com</p>
                 </div>
                 <div class="myph"><img src="telephone.png"></img>
                     <h3>Phone-no : </h3>
-                    <p>8944924233</p>
+                    <p>+91-8944924233</p>
                 </div>
 
 
@@ -179,32 +177,9 @@
         <p><em><strong><a href="https://www.linkedin.com/in/rahul-chowdhury-a599841a3/"><img src="linkedin.png"></a></strong></em></p>
         <p><em><strong><a href="https://www.instagram.com/rc_rahul_07/"><img src="instagram.png"></a></strong></em></p>
     </section>
-    <script>
-        let animate = new Typed('#edit', {
-            strings: [
-                "a Front End Developer",
-                "an Engineer",
-                "a Fresher"
-            ],
-            typeSpeed: 100,
-            backSpeed: 100,
-            loop: true,
 
-        })
-    </script>
-    <script>
-        let animate2 = new Typed('#edit2', {
-            strings: [
-                "a Front End Developer",
-                "an Engineer",
-                "a Fresher"
-            ],
-            typeSpeed: 100,
-            backSpeed: 100,
-            loop: true,
-
-        })
-    </script>
+<!-- loading js here -->
+       <script src="custom.js"></script>
 </body>
 
 </html>
