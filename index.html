@@ -56,11 +56,16 @@
             <p>What I know!</p>
         </div>
         <div class="skillsrow">
-            <div class="skillsleftcol">
-                <p>
-                  I began my tech journey with a strong interest in front-end development, driven by a passion for UI/UX design and tools like Figma. Over time, project requirements led me to expand into backend development, where I’ve been working with Node.js and Express.js. To deepen my understanding, I’ve built self-initiated backend projects and shared them on GitHub. This full-stack exposure has enhanced my versatility as a Web Developer and strengthened my ability to build complete, scalable web applications.          </p>
-                <button class="c-btn">Read More</button>
-            </div>
+          <div class="skillsleftcol">
+  <p>
+    I began my tech journey with a strong interest in front-end development, driven by a passion for UI/UX design and tools like Figma. Over time, project requirements led me to expand into backend development, where I’ve been working with Node.js and Express.js. To deepen my understanding,
+    <span id="moreText" style="display: none;">
+       I’ve built self-initiated backend projects and shared them on GitHub. This full-stack exposure has enhanced my versatility as a Web Developer and strengthened my ability to build complete, scalable web applications.
+    </span>
+  </p>
+  <button class="c-btn" onclick="toggleReadMore()" id="readMoreBtn">Read More</button>
+</div>
+
             <div class="skillsrightcol">
                 <div class="progress-div">
                     <p>
@@ -161,11 +166,18 @@
                 <h2>Connect With Me</h2>
                 <form>
                     <input type="text" placeholder="Name">
-                    <input type="text" placeholder="E-mail">
+                    <input type="email" placeholder="E-mail">
                     <br>
-                    <textarea name="" id="" cols="40" rows="10" placeholder="Message"></textarea>
+                    <textarea name="" id=""  cols="400" rows="10" placeholder="Message"></textarea>
                     <br>
-                    <button class="c-btn">Submit</button>
+                    <a style="display: inline-block;"
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=rahulchowdhury217@gmail.com" 
+  target="_blank"
+  class="c-btn"
+>
+  Submit
+</a>
+
                 </form>
             </div>
         </div>

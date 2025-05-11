@@ -93,6 +93,7 @@ nav {
     background: #e74c3c;
     padding: 10px;
     margin-top: 10px;
+      text-decoration: none; 
 }
 
 #about {
@@ -255,7 +256,7 @@ progress {
     align-items: center;
     flex-wrap: wrap;
     background-color: rgb(94, 92, 92);
-    margin: 50px;
+    margin: 30px;
 }
 
 .contact-row-left {
@@ -264,6 +265,7 @@ progress {
 
 .contact-row-right {
     flex: 48%;
+
 }
 
 .contact-row-right form {
@@ -283,7 +285,7 @@ progress {
 
 .contact-row-right h2 {
     margin-left: 169px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 35px;
     font-size: 30px;
     

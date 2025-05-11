@@ -26,5 +26,20 @@ let animate2 = new Typed('#edit2', {
   hamburger.addEventListener('click', () => {
     navLinks.classList.toggle('active');
   });
+ 
+  function toggleReadMore() {
+    const moreText = document.getElementById("moreText");
+    const btnText = document.getElementById("readMoreBtn");
+
+    if (moreText.style.display === "none") {
+      moreText.style.display = "inline";
+      btnText.textContent = "Read Less";
+    } else {
+      moreText.style.display = "none";
+      btnText.textContent = "Read More";
+    }
+  }
+
+
 
 
